@@ -2,7 +2,7 @@ import sqlite3
 from pathlib import Path
 from typing import Optional, List, Dict, Any
 
-DB_PATH = Path("data/db/metadata.db")
+DB_PATH = Path("./data/db/metadata.db")
 
 
 def get_db_connection() -> sqlite3.Connection:
